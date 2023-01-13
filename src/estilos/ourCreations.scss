@@ -1,0 +1,48 @@
+section {
+  user-select: none;
+  button {
+    background-color: transparent;
+    letter-spacing: 3px;
+  }
+
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .card-article {
+    width: 250px;
+    height: 400px;
+    h3 {
+      width: 130px;
+      color: #fff;
+    }
+  }
+
+  .card-article:hover {
+    filter: invert(99%) sepia(1%) saturate(193%) hue-rotate(243deg) brightness(119%) contrast(100%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    h2 {
+      font-size: 40px;
+    }
+
+    button {
+      display: none;
+    }
+    
+    .card-article {
+      background-position: center;
+      width: 550px;
+      height: 200px;
+
+      h3 {
+        font-size: 40px;
+        width: 200px
+      }
+    }
+  }
+}
