@@ -8,4 +8,21 @@ header{
         border: 1px solid white;
         width: 45vw;
     }
+
+}
+main{
+    div{
+        margin-left: -200px;
+        background-color: white;
+        margin-top: 200px;
+
+        h2{
+            font-size: 38px;
+            letter-spacing: 3px;
+            font-weight: lighter;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
 }
