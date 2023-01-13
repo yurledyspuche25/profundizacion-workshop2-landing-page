@@ -1,0 +1,11 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+header{
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    .titulo{
+        border: 1px solid white;
+        width: 45vw;
+    }
+}
